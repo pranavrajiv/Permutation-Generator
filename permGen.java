@@ -38,14 +38,18 @@ public class permGen {
 	{
 		
 		//permutation of a string
-		String name = "blag";
+		String name = "cabd";
 		Integer[] a = new Integer[name.length()];
 		for(int i=0;i<name.length();i++)
 			a[i] = i;
 		
 		
-		//permutation of a number
-		//Integer a[] ={1,2,3,4};
+//		//permutation of a number
+//		Integer arr[] ={1,1,0,4};
+//		Integer[] a = new Integer[arr.length];
+//		for(int i=0;i<arr.length;i++)
+//			a[i] = i;
+//		
 		
 		
 		
@@ -64,21 +68,22 @@ public class permGen {
 		
 		System.out.println("The Permutations are \n");
 		
-//		//permutation of a number
-//		for(int i=0;i<listNum.size();i++)
-//			System.out.println(listNum.get(i));
-//		
-		//permutation of a string
 		for(int i=0;i<listNum.size();i++)
 		{
 			for(int j=0;j<listNum.get(i).size();j++)		
-				System.out.print(name.charAt(listNum.get(i).get(j)));	
-		
+				{
+					//permutation of a number
+					//System.out.print(arr[listNum.get(i).get(j)]);
+				
+					//permutation of a string
+					System.out.print(name.charAt(listNum.get(i).get(j)));	
+				
+				}
 			System.out.println();
 		}
 		
 		
-		System.out.println("Size = "+listNum.size());
+		System.out.println("\nSize = "+listNum.size());
 		
 	}
 
