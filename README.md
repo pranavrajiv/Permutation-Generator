@@ -1,2 +1,2 @@
 # Permutation-Generator
-Generate the different permutaions of a number and a string
+Generate the different permutaions for a number or a string
